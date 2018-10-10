@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  font-family: tahoma,sans-serif;
+  background-color: #eee;
+  color: #333;
+  line-height: 1.4;
+}
+.container{
+  width: 1140px;
+  margin:0 auto;
+  outline: 1px dotted blue;
+}
+/*parent dir in KRKA1  */
+section{
+  display: flex;
+}
+.normal{
+  display: inline;
+}
+article{
+  font-weight: 400;
+  background-color:#fff;
+  padding: 10px;
+  text-align: justify;
+  outline: 3px dotted blue;
+  margin: 10px;
+       }
+    .aa{
+         background-color: green;
+       }
+
+.flex-item {
+  height: 100px;
+  min-width: 200px;
+    margin: 3px;
+}
+.one{
+  background-color: tomato;
+  flex-grow: 1;
+}
+.two{
+  background-color: green;
+  flex-grow: 1;
+}
+.three{
+  background-color: pink;
+  flex-grow: 1;
+}
+/*parent dir in KRKA2  */
+.krka2{
+  display: flex;
+  text-align: center;
+}
+.krka22{
+  _display: flex;
+  text-align: center;
+}
