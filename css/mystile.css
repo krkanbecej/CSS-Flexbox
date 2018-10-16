@@ -31,7 +31,7 @@ article{
 
 .flex-item {
   height: 100px;
-  min-width: 200px;
+  max-width: 200px;
     margin: 3px;
 }
 .one{
@@ -54,4 +54,39 @@ article{
 .krka22{
   _display: flex;
   text-align: center;
+}
+.krka222{
+  display: flex;
+
+  }
+  .flex-iitem {
+    height: 150px;
+    width: 100px;
+      margin: 3px;
+_flex-grow: 1;
+    }
+
+  .oone{
+    background-color: red;
+
+  }
+  .ttwo{
+    background-color: green;
+
+  }
+  .tthree{
+    background-color: blue;
+
+  }
+.ffour{
+background-color: #1a1a00;
+color: #fff;
+
+}
+.krka2222{
+  display: flex;
+}
+.krka2222 .flex-iitem{
+flex-grow: 1;
+
 }
