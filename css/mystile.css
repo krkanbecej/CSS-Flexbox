@@ -3,7 +3,7 @@ body{
   font-family: tahoma,sans-serif;
   background-color: #eee;
   color: #333;
-  line-height: 1.4;
+
 }
 .container{
   width: 1140px;
@@ -13,6 +13,7 @@ body{
 /*parent dir in KRKA1  */
 section{
   display: flex;
+
 }
 .normal{
   display: inline;
@@ -50,14 +51,19 @@ article{
 .krka2{
   display: flex;
   text-align: center;
+
 }
 .krka22{
   _display: flex;
   text-align: center;
+  .krka22 h1 {
+    margin: 0px;
+
+  }
 }
 .krka222{
   display: flex;
-
+justify-content: center;
   }
   .flex-iitem {
     height: 150px;
@@ -83,10 +89,88 @@ background-color: #1a1a00;
 color: #fff;
 
 }
-.krka2222{
+.krka2222 {
   display: flex;
 }
 .krka2222 .flex-iitem{
 flex-grow: 1;
+}
+/* ORDER************************ */
+.order{
+  display: flex;
+}
 
+.order .flex-iitem {
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-weight: bold;
+flex-grow:1;
+}
+/* first order list.............................. */
+.one1{
+  background-color: red;
+  order: 1;
+}
+.two1{
+  background-color: green;
+  order: 2;
+}
+.three1{
+  background-color: blue;
+  order: 3;
+}
+.four1{
+background-color: #1a1a00;
+color: #fff;
+order: 4;
+}
+.five1{
+background-color: pink;
+order: 5;
+}
+/* the second order list.............................. */
+.one2{
+  background-color: red;
+  order: 5;
+}
+.two2{
+  background-color: green;
+  order: 4;
+}
+.three2{
+  background-color: blue;
+  order: 3;
+}
+.four2{
+background-color: #1a1a00;
+color: #fff;
+order: 2;
+}
+.five2{
+background-color: pink;
+order: 1;
+}
+/* third order list.............................. */
+.one3{
+  background-color: red;
+  order: 5;
+}
+.two3{
+  background-color: green;
+  order: 1;
+}
+.three3{
+  background-color: blue;
+  order: 2;
+}
+.four3{
+background-color: #1a1a00;
+color: #fff;
+order: 4;
+}
+.five3{
+background-color: pink;
+order: 3;
 }
