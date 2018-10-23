@@ -2,13 +2,15 @@ body{
   margin: 0;
   font-family: tahoma,sans-serif;
   background-color: #eee;
-  color: #333;
-
+  color: #333;}
+ h1 {
+  text-align: center;
 }
+
 .container{
   width: 1140px;
   margin:0 auto;
-  outline: 1px dotted blue;
+  outline: 2px dotted blue;
 }
 /*parent dir in KRKA1  */
 section{
@@ -34,6 +36,7 @@ article{
   height: 100px;
   max-width: 200px;
     margin: 3px;
+    display: flex;
 }
 .one{
   background-color: tomato;
@@ -47,30 +50,24 @@ article{
   background-color: pink;
   flex-grow: 1;
 }
+.four{
+background-color: blue;
+  flex-grow: 1;
+}
 /*parent dir in KRKA2  */
 .krka2{
   display: flex;
   text-align: center;
 
+  justify-content: flex-end;
+
 }
 .krka22{
-  _display: flex;
-  text-align: center;
-  .krka22 h1 {
-    margin: 0px;
-
-  }
-}
-.krka222{
   display: flex;
+    text-align: center;
 justify-content: center;
   }
-  .flex-iitem {
-    height: 150px;
-    width: 100px;
-      margin: 3px;
-_flex-grow: 1;
-    }
+
 
   .oone{
     background-color: red;
@@ -89,12 +86,18 @@ background-color: #1a1a00;
 color: #fff;
 
 }
-.krka2222 {
+.krka222 {
   display: flex;
 }
-.krka2222 .flex-iitem{
-flex-grow: 1;
+.krka222a {
+  display:flex;
+ flex-direction: row-reverse;
 }
+.krka222b {
+  display:flex;
+ flex-direction: column-reverse;
+}
+
 /* ORDER************************ */
 .order{
   display: flex;
