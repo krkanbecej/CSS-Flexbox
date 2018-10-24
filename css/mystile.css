@@ -10,7 +10,7 @@ body{
 .container{
   width: 1140px;
   margin:0 auto;
-  outline: 2px dotted blue;
+  outline: 3px dotted green;
 }
 /*parent dir in KRKA1  */
 section{
@@ -30,13 +30,16 @@ article{
        }
     .aa{
          background-color: green;
+         color: #fff;
        }
 
 .flex-item {
   height: 100px;
-  max-width: 200px;
+  width: 200px;
     margin: 3px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .one{
   background-color: tomato;
@@ -94,10 +97,12 @@ color: #fff;
  flex-direction: row-reverse;
 }
 .krka222b {
-  display:flex;
- flex-direction: column-reverse;
+  /* display:flex; */
 }
-
+.krka222c {
+  display:flex;
+ flex-direction:column-reverse;
+ }
 /* ORDER************************ */
 .order{
   display: flex;
@@ -158,7 +163,7 @@ order: 1;
 /* third order list.............................. */
 .one3{
   background-color: red;
-  order: 5;
+  order: 4;
 }
 .two3{
   background-color: green;
@@ -171,9 +176,30 @@ order: 1;
 .four3{
 background-color: #1a1a00;
 color: #fff;
-order: 4;
+order: 5;
 }
 .five3{
 background-color: pink;
 order: 3;
 }
+/* KRKA 4*********************** */
+.osnova{
+display: flex;
+color: #fff;
+}
+.prva{
+  flex-basis: 100px;
+  font-weight: bold;
+  background-color:yellow;
+color: #111;
+}
+.druga{
+  flex-basis: 200px;
+  font-weight: bold;
+  background-color:red;
+}
+.tri{
+  flex-basis: 400px;
+  font-weight: bold;
+  background-color:blue;
+    }
