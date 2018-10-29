@@ -34,40 +34,44 @@ article{
        }
 
 .flex-item {
-  height: 100px;
+    height: 100px;
   width: 200px;
     margin: 3px;
-    display: flex;
-    justify-content: center;
+      justify-content: center;
     align-items: center;
 }
 .one{
   background-color: tomato;
-  flex-grow: 1;
+
 }
 .two{
   background-color: green;
-  flex-grow: 1;
+
 }
 .three{
   background-color: pink;
-  flex-grow: 1;
+
 }
 .four{
 background-color: blue;
-  flex-grow: 1;
+
 }
 /*parent dir in KRKA2  */
-.krka2{
-  display: flex;
-  text-align: center;
-
-  justify-content: flex-end;
-
+.krka2 .flex-item{
+  height: 100px;
+  width: 200px;
 }
+.krka2{
+  display:flex;
+  text-align: center;
+  justify-content: flex-end;
+}
+.krka22 .flex-item{
+  height: 100px;
+  width: 200px;}
 .krka22{
-  display: flex;
-    text-align: center;
+display: flex;
+text-align: center;
 justify-content: center;
   }
 
