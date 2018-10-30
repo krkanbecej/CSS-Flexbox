@@ -11,6 +11,7 @@ body{
   width: 1140px;
   margin:0 auto;
   outline: 3px dotted green;
+  margin-bottom: 50px;
 }
 /*parent dir in KRKA1  */
 section{
@@ -65,14 +66,17 @@ background-color: blue;
   display:flex;
   text-align: center;
   justify-content: flex-end;
+  margin: 15px;
 }
 .krka22 .flex-item{
   height: 100px;
   width: 200px;}
+
 .krka22{
 display: flex;
 text-align: center;
 justify-content: center;
+margin: 15px;
   }
 
 
@@ -95,21 +99,27 @@ color: #fff;
 }
 .krka222 {
   display: flex;
+  margin: 15px;
 }
 .krka222a {
   display:flex;
  flex-direction: row-reverse;
+ margin: 15px;
 }
 .krka222b {
-  /* display:flex; */
+  margin: 15px;
+  margin: 15px;
 }
 .krka222c {
   display:flex;
  flex-direction:column-reverse;
+ margin: 15px;
  }
+ /* KRKA3************************ */
 /* ORDER************************ */
 .order{
   display: flex;
+  margin: 15px;
 }
 
 .order .flex-iitem {
@@ -187,9 +197,12 @@ background-color: pink;
 order: 3;
 }
 /* KRKA 4*********************** */
+/* flex-basis */
 .osnova{
 display: flex;
 color: #fff;
+text-align: center;
+margin: 15px;
 }
 .prva{
   flex-basis: 100px;
@@ -207,3 +220,34 @@ color: #111;
   font-weight: bold;
   background-color:blue;
     }
+    /* justify-content: space-around; */
+    .osnova2{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    }
+    .flex-itemm{
+    text-align: center;
+    }
+    .prva2{
+      flex-basis: 100px;
+      font-weight: bold;
+      background-color:yellow;
+    color: #111;
+    }
+    .druga2{
+      flex-basis: 100px;
+      font-weight: bold;
+      background-color:red;
+    }
+    .tri2{
+      flex-basis: 100px;
+      font-weight: bold;
+      background-color:blue;
+        }
+/* justify-content: space-between; */
+.osnova3{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
